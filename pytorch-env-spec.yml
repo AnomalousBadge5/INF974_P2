@@ -1,0 +1,17 @@
+name: pytorch-final
+channels:
+  - defaults
+  - pytorch
+  - rusty1s
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit  # Remove or change this line for CPU-only
+  - pytorch-cluster
+  - pytorch-geometric
+  - pytorch-scatter
+  - pytorch-sparse
+  - ipykernel
+  
